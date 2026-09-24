@@ -60,7 +60,7 @@ The complete business scenario, implementation procedure, validation evidence, a
 ## 📖 Full Lab Documentation
 The complete step-by-step walkthrough, command-line operations, execution logs, and configuration screenshots are fully documented in the repository Wiki:
 
-* 📖 [Full Lab Guide — IAM User Provisioning & Access Control Wiki]([https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki/01-%E2%80%94-Identity-and-Access-Management](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki/01-%E2%80%94-Identity-and-Access-Management-(IAM)-%E2%80%94-Local-User-Provisioning-&-Least-Privilege#-enterprise-environment-context)
+* 📖 [Full Lab Guide — IAM User Provisioning & Access Control Wiki](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki/01-%E2%80%94-Identity-and-Access-Management-(IAM)-%E2%80%94-Local-User-Provisioning-&-Least-Privilege#-enterprise-environment-context)
 
 ---
 
