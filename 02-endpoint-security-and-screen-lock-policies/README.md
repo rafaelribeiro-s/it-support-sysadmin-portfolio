@@ -30,10 +30,10 @@ It does not include centralized Group Policy management, Active Directory, Micro
 
 ## 🏢 Enterprise Scenario
 
-**Company:** NexaCorp Solutions Ltd.
-**Industry:** Cloud Financial Services
-**Department:** Finance Operations
-**Workstation:** `NX-WS-FIN02`
+* **Company:** NexaCorp Solutions Ltd.
+* **Industry:** Cloud Financial Services
+* **Department:** Finance Operations
+* **Workstation:** `NX-WS-FIN02`
 
 A Finance Operations workstation is used to access corporate and financial information.
 
