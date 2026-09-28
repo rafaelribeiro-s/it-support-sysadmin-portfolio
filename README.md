@@ -23,6 +23,7 @@ Each project is designed as a simulated enterprise scenario with documented obje
 | # | Project Name | Key Focus & Skills | Documentation |
 |:---:|---|---|:---:|
 | **01** | `01-identity-and-access-management-iam` | Local User Provisioning, Least Privilege, Windows Account Management | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/tree/main/projects/01-identity-and-access-management-iam) |
+| **02** | `02-endpoint-security-and-screen-lock-policies` | Endpoint Security, Automatic Screen Lock & Inactivity Timeout, Authentication on Resume | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/tree/main/02-endpoint-security-and-screen-lock-policies) |
 
 ---
 
@@ -31,9 +32,12 @@ Each project is designed as a simulated enterprise scenario with documented obje
 ```text
 it-support-sysadmin-portfolio/
 ├── README.md
-|
+│
 └── projects/
-    └── 01-identity-and-access-management-iam/
+    ├── 01-identity-and-access-management-iam/
+    │   └── README.md
+    │
+    └── 02-endpoint-security-and-screen-lock-policies/
         └── README.md
 ```
 
