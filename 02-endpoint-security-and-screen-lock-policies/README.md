@@ -60,7 +60,7 @@ As part of the organization's endpoint security baseline, unattended workstation
 
 The complete implementation procedure, configuration evidence, validation tests, troubleshooting records, and lessons learned are documented in the project Wiki:
 
-* 📖 [Full Lab Guide — Endpoint Security & Automatic Screen Lock](../../wiki/02-%E2%80%94-Endpoint-Security-%E2%80%94-Automatic-Screen-Lock-%26-Inactivity-Policy)
+* 📖 [Full Lab Guide — Endpoint Security & Automatic Screen Lock](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki/02-%E2%80%94-Endpoint-Security-%E2%80%94-Automatic-Screen-Lock-&-Inactivity-Policy)
 
 ---
 
