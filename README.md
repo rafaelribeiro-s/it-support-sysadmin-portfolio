@@ -30,15 +30,13 @@ Each project is designed as a simulated enterprise scenario with documented obje
 ## 📂 Repository Architecture
 
 ```text
-it-support-sysadmin-portfolio/
-├── README.md
-│
-└── projects/
-    ├── 01-identity-and-access-management-iam/
-    │   └── README.md
-    │
-    └── 02-endpoint-security-and-screen-lock-policies/
-        └── README.md
+it-support-sysadmin-portfolio/projects/
+├── 01-identity-and-access-management-iam/
+│   └── README.md
+├── 02-endpoint-security-and-screen-lock-policies/
+│   └── README.md
+└── 03-software-deployment-and-integrity-verification/
+    └── README.md
 ```
 
 ---
