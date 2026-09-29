@@ -1,4 +1,4 @@
-# Lab 03: Software Deployment & Integrity Verification
+# Lab 03: Software Deployment & Integrity Verification — Safe and Guided Software Installation
 
 ## 📌 Executive Summary
 
@@ -28,25 +28,39 @@ This lab demonstrates the following software deployment and security practices:
 * Validate the software installation after deployment.
 * Document the evidence collected throughout the process.
 
+### Out of Scope
+
+* Enterprise software licensing or procurement
+* Microsoft Intune or other centralized software deployment platforms
+* Active Directory/GPO-based software deployment
+* Automated deployment through SCCM/MECM
+* Software packaging or repackaging
+* Enterprise application lifecycle management
+* Production endpoint deployment
+* Application vulnerability assessment or penetration testing
+* Source-code auditing of GIMP
+* Reverse engineering of the installer
+
 ---
 
 ## 🏢 Simulated Enterprise Scenario
 
-This lab simulates a software deployment request within the fictional organization **NexaCorp Solutions Ltd.**
+* **Company:** NexaCorp Solutions Ltd.
+* **Industry:** Cloud Financial Services
+* **Department:** Creative & Brand
+* **Workstation:** `NX-WS-CRT03`
+* **Employee:** Olivia Bennett
+* **Username:** `o.bennett`
+* **Job Title:** Graphic Designer
+* **Ticket:** `INC-804512`
 
-A business user requires an approved image-editing application for work-related activities.
+The Creative & Brand team requires an approved image-editing application for work-related design activities on workstation `NX-WS-CRT03`.
 
-The IT Support & Systems Administration team is responsible for:
+As part of the organization's endpoint security and software deployment procedures, the requested application must be obtained from an official and trusted source, verified for file integrity, scanned for potential security threats, and installed using only the required components and appropriate installation scope.
 
-1. Validating the software request.
-2. Obtaining the installer from the official vendor source.
-3. Verifying installer integrity.
-4. Checking the installer for potential security detections.
-5. Reviewing installation options.
-6. Installing only the required software components.
-7. Verifying successful deployment.
+For this lab, **GIMP (GNU Image Manipulation Program)** is used as the approved software package to demonstrate the controlled deployment process.
 
-The objective is to demonstrate a controlled and auditable software installation process.
+The complete business scenario, software acquisition procedure, integrity verification, installation evidence, validation results, troubleshooting activities, and lessons learned are documented in the project Wiki.
 
 ---
 
@@ -63,21 +77,6 @@ The objective is to demonstrate a controlled and auditable software installation
 * Security Validation
 * Technical Documentation
 * Troubleshooting
-
----
-
-## 💻 Lab Environment
-
-|        Component        | Configuration                    |
-| :---------------------: | :------------------------------- |
-| Virtualization Platform | Oracle VirtualBox                |
-|  Guest Operating System | Windows 11 Enterprise Evaluation |
-|       Architecture      | x64                              |
-|       Workstation       | NX-WS-CRT03                      |
-|         Software        | GIMP                             |
-|     Software Source     | Official GIMP distribution       |
-|     Deployment Type     | Local software installation      |
-
 
 ---
 
@@ -111,7 +110,7 @@ The completed installation is verified to ensure that the approved application w
 
 ---
 
-## 📖 Documentation
+## 📖 Full Lab Documentation
 
 The complete hands-on procedure, verification evidence, screenshots, command-line operations, troubleshooting records, and lessons learned are documented in the project Wiki.
 
@@ -119,7 +118,7 @@ The complete hands-on procedure, verification evidence, screenshots, command-lin
 
 ---
 
-## 🧠 Expected Outcome
+## 🔎 Expected Outcome
 
 At the end of the lab, the approved GIMP installation should be successfully deployed and validated on the Windows workstation.
 
@@ -132,31 +131,3 @@ The documentation should provide evidence that the installer:
 * Did not introduce unnecessary components.
 * Was successfully validated after deployment.
 
----
-
-## 📋 Evidence Strategy
-
-The Wiki documentation will contain evidence for:
-
-* Workstation baseline.
-* Software deployment request.
-* Official vendor download source.
-* Installer identification.
-* SHA-256 hash calculation.
-* Vendor hash comparison.
-* Malware scanning results.
-* Installation scope selection.
-* License agreement review.
-* Component selection.
-* Installation completion.
-* Post-installation validation.
-* Troubleshooting.
-* Lessons learned.
-
----
-
-## ✅ Final Result
-
-This lab demonstrates a repeatable software deployment workflow that combines operational IT support practices with basic endpoint security controls.
-
-Rather than treating software installation as a simple executable launch, the process demonstrates how an IT support technician can establish software provenance, verify file integrity, assess security risk, control installation scope, and document the final deployment state.
