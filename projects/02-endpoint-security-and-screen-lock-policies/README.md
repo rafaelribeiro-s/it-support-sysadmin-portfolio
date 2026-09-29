@@ -18,8 +18,6 @@ The scenario demonstrates practical endpoint security controls designed to reduc
 * Document the implementation and verification evidence.
 * Record troubleshooting activities and lessons learned.
 
-### Scope
-
 This laboratory focuses on workstation-level endpoint security and physical access protection.
 
 ### Out of Scope
@@ -28,7 +26,7 @@ It does not include centralized Group Policy management, Active Directory, Micro
 
 ---
 
-## 🏢 Enterprise Scenario
+## 🏢 Simulated Enterprise Scenario
 
 * **Company:** NexaCorp Solutions Ltd.
 * **Industry:** Cloud Financial Services
@@ -56,7 +54,7 @@ As part of the organization's endpoint security baseline, unattended workstation
 
 ---
 
-## 📖 Detailed Lab Documentation
+## 📖 Full Lab Documentation
 
 The complete implementation procedure, configuration evidence, validation tests, troubleshooting records, and lessons learned are documented in the project Wiki:
 
@@ -86,7 +84,7 @@ The control is validated through both configuration evidence and an observed beh
 
 ---
 
-## 📊 Expected Outcome
+## 🔎 Key Outcome
 
 At the end of the laboratory:
 
