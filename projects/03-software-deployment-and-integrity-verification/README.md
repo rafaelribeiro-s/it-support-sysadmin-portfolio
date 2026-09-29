@@ -114,7 +114,7 @@ The completed installation is verified to ensure that the approved application w
 
 The complete hands-on procedure, verification evidence, screenshots, command-line operations, troubleshooting records, and lessons learned are documented in the project Wiki.
 
-* 📖 [Full Lab Guide — Software Deployment & Integrity Verification Wiki](../../wiki/03-Software-Deployment-and-Integrity-Verification)
+* 📖 [Full Lab Guide — Software Deployment & Integrity Verification Wiki](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki/03-%E2%80%94-Software-Deployment-&-Integrity-Verification-%E2%80%94-Safe-and-Guided-Software-Installation)
 
 ---
 
