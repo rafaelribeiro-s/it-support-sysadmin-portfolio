@@ -25,7 +25,7 @@ Each project is designed as a simulated enterprise scenario with documented obje
 | **01** | `01-identity-and-access-management-iam` | Local User Provisioning, Least Privilege, Windows Account Management | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/tree/main/projects/01-identity-and-access-management-iam) |
 | **02** | `02-endpoint-security-and-screen-lock-policies` | Endpoint Security, Automatic Screen Lock & Inactivity Timeout, Authentication on Resume | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/tree/main/projects/02-endpoint-security-and-screen-lock-policies) |
 | **03** | `03-software-deployment-and-integrity-verification` | Secure Software Deployment, Installer Integrity Verification & Malware Screening | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/tree/main/projects/03-software-deployment-and-integrity-verification) |
-| **04** | `04-windows-firewall-and-endpoint-network-security` | Windows Firewall, Outbound Application Rules, Network Connectivity Validation | [Read Lab Guide] |
+| **04** | `04-windows-firewall-and-endpoint-network-security` | Windows Firewall, Outbound Application Rules, Network Connectivity Validation | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/blob/main/projects/04-windows-firewall-and-endpoint-network-security) |
 
 ---
 
