@@ -1,4 +1,4 @@
-# Lab 04: Windows Firewall & Endpoint Network Security
+# Lab 04: Windows Firewall & Endpoint Network Security — Firewall Configuration and Connectivity Validation
 
 ## 📌 Executive Summary
 
