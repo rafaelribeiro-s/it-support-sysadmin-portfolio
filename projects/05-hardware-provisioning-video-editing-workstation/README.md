@@ -8,7 +8,7 @@ The objective is to translate business and application requirements into a techn
 
 The assessment will use official software documentation as the primary reference for hardware requirements. Proposed components will be evaluated for compatibility, storage capacity, network connectivity, and future expansion before a purchasing recommendation is made.
 
-This project focuses on **requirements assessment and workstation planning**. No physical workstation will be purchased, assembled, or deployed during the initial phase.
+This project focuses on **requirements assessment and workstation planning**. No physical workstation will be purchased, assembled, or deployed.
 
 ---
 
@@ -136,8 +136,8 @@ Record:
 
 Reference:
 
-- [Adobe Premiere Pro Technical Requirements](https://helpx.adobe.com/br/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html)
-- [Adobe Processor, Memory, and GPU Recommendations](https://helpx.adobe.com/br/premiere/desktop/get-started/technical-requirements/processor-memory-and-gpu-recommendations.html)
+- [Adobe Premiere Pro Technical Requirements](https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html)
+- [Adobe Processor, Memory, and GPU Recommendations](https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/processor-memory-and-gpu-recommendations.html)
 
 Requirements must be rechecked against the version selected for the final assessment.
 
@@ -319,8 +319,8 @@ The project demonstrates the ability to translate business requirements into a p
 
 ## 📚 References
 
-- [Adobe Premiere Pro Technical Requirements](https://helpx.adobe.com/br/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html)
-- [Adobe Processor, Memory, and GPU Recommendations](https://helpx.adobe.com/br/premiere/desktop/get-started/technical-requirements/processor-memory-and-gpu-recommendations.html)
+- [Adobe Premiere Pro Technical Requirements](https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html)
+- [Adobe Processor, Memory, and GPU Recommendations](https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/processor-memory-and-gpu-recommendations.html)
 - [Microsoft Windows 11 Specifications and System Requirements](https://www.microsoft.com/windows/windows-11-specifications)
 
 Additional manufacturer documentation and pricing sources will be added as candidate components are evaluated.
