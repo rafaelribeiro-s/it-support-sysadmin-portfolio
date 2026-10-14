@@ -40,7 +40,9 @@ it-support-sysadmin-portfolio/projects/
 │   └── README.md
 ├── 03-software-deployment-and-integrity-verification/
 │   └── README.md
-└── 04-windows-firewall-and-endpoint-network-security/
+├── 04-windows-firewall-and-endpoint-network-security/
+│   └── README.md
+└── 05-hardware-provisioning-video-editing-workstation/
     └── README.md
 ```
 
