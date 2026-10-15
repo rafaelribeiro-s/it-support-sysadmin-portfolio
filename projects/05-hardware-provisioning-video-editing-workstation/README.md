@@ -184,7 +184,7 @@ The documentation will distinguish published specifications from physical test r
 
 The complete workstation provisioning case study, workload assessment, recommended hardware configuration, storage calculations, project management workflow, compatibility considerations, acceptance criteria, and supporting evidence will be documented in the project Wiki.
 
-* 📖 [Full Lab Guide — Hardware Provisioning & Video Editing Workstation Wiki](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki)
+* 📖 [Full Lab Guide — Hardware Provisioning & Video Editing Workstation Wiki](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki/05-%E2%80%94-Hardware-Provisioning-%E2%80%94-Video-Editing-Workstation)
 
 ---
 
