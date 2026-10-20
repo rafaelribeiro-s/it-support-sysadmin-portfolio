@@ -27,7 +27,7 @@ Each project is designed as a simulated enterprise scenario with documented obje
 | **03** | `03-software-deployment-and-integrity-verification` | Secure Software Deployment, Installer Integrity Verification & Malware Screening | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/tree/main/projects/03-software-deployment-and-integrity-verification) |
 | **04** | `04-windows-firewall-and-endpoint-network-security` | Windows Firewall, Outbound Application Rules, Network Connectivity Validation | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/blob/main/projects/04-windows-firewall-and-endpoint-network-security) |
 | **05** | `05-hardware-provisioning-video-editing-workstation` | Hardware Assessment, Workstation Provisioning, Role-Based Requirements | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/blob/main/projects/05-hardware-provisioning-video-editing-workstation/README.md) |
-| **06** | `06-hardware-upgrade-and-troubleshooting-case` | Hardware Diagnostics, Root Cause Analysis, Component Upgrades, Post-Upgrade Validation | [Work in Progress]
+| **06** | `06-hardware-upgrade-and-troubleshooting-case` | Hardware Diagnostics, Root Cause Analysis, Component Upgrades, Post-Upgrade Validation | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/blob/main/projects/06-hardware-upgrade-and-troubleshooting-case/README.md) |
 
 ---
 
