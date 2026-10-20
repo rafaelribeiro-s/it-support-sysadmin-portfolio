@@ -120,7 +120,7 @@ Screenshots and validation records are collected to document the initial configu
 
 ---
 
-### 📖 Full Lab Documentation
+## 📖 Full Lab Documentation
 
 The complete hands-on procedure, verification evidence, screenshots, firewall rule configuration, connectivity tests, troubleshooting records, and lessons learned will be documented in the project Wiki after the lab has been implemented.
 
