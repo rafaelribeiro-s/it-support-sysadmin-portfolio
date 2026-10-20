@@ -217,7 +217,7 @@ The report will distinguish between recorded measurements, diagnostic conclusion
 
 The complete troubleshooting case, initial hardware inventory, baseline performance observations, root cause analysis, corrective actions, memory allocation change, post-upgrade validation, and supporting screenshots will be documented in the project Wiki.
 
-* 📖 Full Lab Guide — Hardware Upgrade & Troubleshooting Case Wiki - Work in Progress
+* 📖 [Full Lab Guide — Hardware Upgrade & Troubleshooting Case Wiki](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki/06-%E2%80%94-Hardware-Upgrade-and-Troubleshooting--%E2%80%94-Hardware-Diagnostics)
 
 ---
 
