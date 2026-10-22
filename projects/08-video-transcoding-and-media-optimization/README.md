@@ -6,7 +6,7 @@ This lab documents a video transcoding and media optimization task within a simu
 
 The objective is to demonstrate a structured media processing workflow using **HandBrake**, an open-source video transcoder, to convert video files from formats such as MOV and MKV into MP4 for improved compatibility with presentation equipment, online platforms, and common media playback applications.
 
-The lab uses HandBrake on a Windows or macOS workstation to demonstrate source file selection, output container configuration, video encoder selection, quality settings, resolution management, encoding execution, and output file validation.
+The lab uses HandBrake on a Windows workstation to demonstrate source file selection, output container configuration, video encoder selection, quality settings, resolution management, encoding execution, and output file validation.
 
 The proposed workflow uses **MP4 as the output container, H.264 (x264) as the video encoder**, and a **Constant Quality setting of RF 22** as the initial encoding configuration. The target resolution is up to 1080p, with the documented example showing final dimensions of 1280 × 720 (720p).
 
