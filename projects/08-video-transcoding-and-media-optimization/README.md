@@ -315,7 +315,7 @@ The complete practical walkthrough, including HandBrake installation, source vid
 
 The Wiki will provide the detailed step-by-step procedure and supporting screenshots for each stage of the laboratory.
 
-* 📖 Full Lab Guide — Media Processing & File Optimization — Video Transcoding with HandBrake
+* 📖 [Full Lab Guide — Media Processing & File Optimization — Video Transcoding with HandBrake](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/wiki/08-%E2%80%94-Media-Processing-&-File-Optimization-%E2%80%94-Video-Transcoding-with-HandBrake)
 
 ---
 
