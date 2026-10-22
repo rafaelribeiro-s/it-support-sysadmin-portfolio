@@ -169,7 +169,7 @@ For this lab, the scenario is simulated for educational and portfolio purposes. 
 ## 🛠️ Skills & Technologies Applied
 
 * IT Support and Systems Administration
-* Windows 11 and macOS Application Workflows
+* Windows 11 Application Workflow
 * HandBrake Video Transcoding
 * Digital Media Processing
 * Video Container and Codec Fundamentals
