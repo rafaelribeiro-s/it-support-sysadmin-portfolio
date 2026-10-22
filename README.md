@@ -29,6 +29,7 @@ Each project is designed as a simulated enterprise scenario with documented obje
 | **05** | `05-hardware-provisioning-video-editing-workstation` | Hardware Assessment, Workstation Provisioning, Role-Based Requirements | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/blob/main/projects/05-hardware-provisioning-video-editing-workstation/README.md) |
 | **06** | `06-hardware-upgrade-and-troubleshooting-case` | Hardware Diagnostics, Root Cause Analysis, Component Upgrades, Post-Upgrade Validation | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/blob/main/projects/06-hardware-upgrade-and-troubleshooting-case/README.md) |
 | **07** | `07-disk-management-and-storage-partitioning` | Disk Management, Partitioning, File Systems, Storage Validation | [Read Lab Guide](https://github.com/rafaelribeiro-s/it-support-sysadmin-portfolio/tree/main/projects/07-disk-management-and-storage-partitioning) |
+| **08** | `08-video-transcoding-and-media-optimization` | Video Transcoding, Codecn Selection, HandBrake GUI, Media Compatibility & Compression | Work in Progress |
 
 ---
 
@@ -48,7 +49,9 @@ it-support-sysadmin-portfolio/projects/
 │   └── README.md
 ├── 06-hardware-upgrade-and-troubleshooting-case/
 │   └── README.md
-└── 07-disk-management-and-stroage-partitioning/
+├── 07-disk-management-and-stroage-partitioning/
+│   └── README.md
+└── 08-video-transcoding-and-media-optimization/
     └── README.md
 ```
 
