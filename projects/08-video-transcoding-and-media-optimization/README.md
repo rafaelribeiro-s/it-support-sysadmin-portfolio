@@ -2,134 +2,63 @@
 
 ## 📌 Executive Summary
 
-This lab documents a video transcoding and media optimization task within a simulated enterprise IT support environment.
+This lab documents a video transcoding workflow performed with HandBrake in a simulated enterprise IT support environment.
 
-The objective is to demonstrate a structured media processing workflow using **HandBrake**, an open-source video transcoder, to convert video files from formats such as MOV and MKV into MP4 for improved compatibility with presentation equipment, online platforms, and common media playback applications.
+The objective is to demonstrate how to load a source video, configure an output format, review video encoding and resolution settings, initiate transcoding, and inspect the resulting file.
 
-The lab uses HandBrake on a Windows workstation to demonstrate source file selection, output container configuration, video encoder selection, quality settings, resolution management, encoding execution, and output file validation.
+The planned configuration uses MP4 as the output container, H.264 (x264) as the video encoder, and Constant Quality RF 22 as the initial quality setting. Resolution and scaling options are reviewed before encoding.
 
-The proposed workflow uses **MP4 as the output container, H.264 (x264) as the video encoder**, and a **Constant Quality setting of RF 22** as the initial encoding configuration. The target resolution is up to 1080p, with the documented example showing final dimensions of 1280 × 720 (720p).
+These settings represent the intended laboratory configuration. The actual output properties, including resolution, frame rate, duration, file size, and visual quality, must be determined from the completed conversion and its supporting evidence.
 
-These settings represent the configuration demonstrated in the training exercise rather than a universal encoding standard. Actual output dimensions, file size, visual quality, and encoding time depend on the source material and the final HandBrake configuration.
+The lab follows six evidence stages, from application installation to output verification. It emphasizes accurate configuration, process monitoring, file management, troubleshooting, and evidence-based technical documentation.
 
-The lab emphasizes media compatibility, encoding parameter selection, storage efficiency, output destination management, and post-conversion verification.
-
-The project documents a practical video processing procedure for IT support and digital media workflows. It does not claim enterprise media pipeline deployment, automated transcoding, streaming infrastructure implementation, or formal video quality certification.
-
+**This is an educational portfolio exercise based on a simulated enterprise scenario. It does not represent a real corporate service request, a production deployment, an automated media processing pipeline, or formal video quality certification.**
 ---
 
 ## 🎯 Objectives & Scope
 
-This lab demonstrates the following IT support and media processing practices:
+The objectives of this lab are to:
 
-* Identify and select a source video file for conversion using HandBrake.
-* Understand the purpose of video transcoding and its role in media compatibility.
-* Configure MP4 as the destination container for broad playback compatibility.
-* Select H.264 (x264) as the video encoder for a balance of compatibility, quality, and processing requirements.
-* Configure Constant Quality encoding using RF 22 as the documented starting point.
-* Understand the relationship between encoding quality, bitrate, file size, and processing time.
-* Inspect resolution and scaling settings and determine an appropriate output resolution.
-* Configure the output filename and destination path before encoding.
-* Execute the encoding process and monitor its progress.
-* Locate the resulting video file and verify that the output was generated successfully.
-* Compare relevant source and output properties, including format, dimensions, duration, and file size.
-* Capture screenshots documenting the configuration and conversion workflow.
-* Record implementation results, technical observations, troubleshooting findings, and limitations.
-* Develop a repeatable procedure for preparing video files for presentations and online distribution.
+* Verify that HandBrake is installed and launches successfully.
+* Load the intended source video into the application.
+* Configure MP4 as the output container.
+* Select H.264 (x264) as the video encoder.
+* Configure Constant Quality RF 22 as the initial encoding setting.
+* Review the output resolution and dimensions.
+* Select an output filename and destination.
+* Initiate the encoding process and observe its status.
+* Locate the output file and inspect its available properties.
+* Check basic playback functionality when supported by the evidence.
+* Document the workflow using six evidence items.
+* Record relevant troubleshooting observations, lessons learned, and validation limitations.
 
 ### Planned Conversion Configuration
 
 | **Parameter** | **Planned Setting** | **Technical Purpose** |
 |:---:|:---:|:---:|
-| Application | HandBrake | Video transcoding and encoding |
-| Source formats | MOV, MKV, or another supported input format | Accept video files from different sources |
-| Output container | MP4 | Improve compatibility with common playback environments |
-| Video encoder | H.264 (x264) | Provide broad compatibility and practical encoding performance |
-| Quality mode | Constant Quality | Maintain a quality-oriented encoding target |
-| RF value | 22 | Establish the documented starting point for quality and compression |
-| Resolution limit | Up to 1080 HD | Prevent unnecessary output resolution above the selected limit |
-| Example final dimensions | 1280 x 720 | Produce a 720p output in the documented example |
-| Frame rate | 30 FPS in the demonstrated configuration | Define the intended output frame rate |
-| Output destination | User-selected location | Control where the converted file is saved |
-| Validation method | File properties and playback verification | Confirm output generation and basic usability |
+| Application | HandBrake | Video transcoding |
+| Source video | Selected supported input file | Provide the media to be processed |
+| Output container | MP4 | Package the output media streams |
+| Video encoder | H.264 (x264) | Encode the video stream |
+| Quality mode | Constant Quality | Establish a quality-oriented encoding target |
+| Initial RF value | 22 | Define the starting quality setting |
+| Resolution | Reviewed before encoding | Ensure appropriate output dimensions |
+| Output destination | User-selected directory | Define where the converted file is saved |
+| Validation | File inspection and playback check | Assess output availability and basic usability |
 
-The final dimensions and frame rate depend on the source properties, scaling settings, and encoding options. The example configuration shows a 1280 × 720 output at 30 FPS, but these values must not be assumed for every source file.
+The table describes the planned configuration, not a guarantee of the final output properties. Actual values must be recorded from the application and the resulting file.
 
-MP4 is a container format, while H.264 is a video codec. Selecting MP4 does not, by itself, determine the codec, quality level, or final file size.
+### Technical Rationale
 
-### Media Optimization Rationale
+**MP4 container:** MP4 is widely supported, but compatibility also depends on the codecs and features used within the container and the capabilities of the target playback environment.
 
-#### MP4 — Output Container
+**H.264 (x264):** H.264 is a broadly supported video codec suitable for many presentation and media distribution scenarios.
 
-MP4 is selected because it is widely supported by modern operating systems, media players, presentation environments, and online publishing platforms.
+**Constant Quality RF 22:** This is the initial quality setting for the exercise, not a fixed bitrate or guaranteed file size. Lower RF values generally prioritize higher quality, while higher RF values generally allow more compression and may reduce visual quality.
 
-Intended benefits include:
+**Resolution and scaling:** The output dimensions depend on the source properties and the settings selected in HandBrake. The actual output resolution must be verified rather than assumed.
 
-* Improved compatibility with common playback applications.
-* Easier integration into presentations and web-based media workflows.
-* A standardized output format for files received in different source containers.
-* Simplified organization of media assets intended for distribution.
-
-MP4 compatibility still depends on the codecs and features used inside the container and on the capabilities of the target playback environment.
-
-#### H.264 (x264) — Video Encoding
-
-H.264 is selected as the demonstrated video codec because it provides a practical balance between compatibility, compression efficiency, and encoding performance.
-
-Intended benefits include:
-
-* Broad support across common playback devices and applications.
-* Efficient compression compared with many uncompressed or lightly compressed video formats.
-* Practical use for presentations, educational resources, and online distribution.
-* Predictable compatibility for a general-purpose media workflow.
-
-H.265 may provide better compression at a comparable visual quality in suitable circumstances, but it can require more processing time and may have different playback compatibility requirements.
-
-#### Constant Quality RF 22 — Encoding Quality
-
-The demonstrated configuration uses Constant Quality with an RF value of 22.
-
-This setting establishes a quality-oriented encoding target rather than specifying a fixed output bitrate.
-
-The resulting bitrate and file size vary with the source video's content, complexity, motion, noise, resolution, and frame rate.
-
-A lower RF value generally produces higher quality and larger files, while a higher RF value generally produces smaller files with greater quality loss. The appropriate value depends on the content and intended use.
-
-RF 22 is a starting point for this exercise, not a guarantee of a particular file size or objectively defined quality level.
-
-#### Resolution and Scaling — Output Dimensions
-
-The Dimensions tab is used to inspect and configure the output resolution.
-
-The documented example uses a resolution limit of 1080p HD and shows final dimensions of 1280 × 720, corresponding to a 16:9 aspect ratio.
-
-Reducing resolution can lower processing requirements and output file size, but it also reduces the amount of image detail retained.
-
-The output resolution should be selected according to the source material, the intended display, and the requirements of the target platform. Upscaling a lower-resolution source does not restore detail that was absent from the original video.
-
-#### Destination Management and Output Verification
-
-The output destination must be selected before encoding begins.
-
-After the encoding process finishes, the resulting file should be located and inspected to confirm that it exists, has the expected extension, and can be opened successfully.
-
-Where source and output measurements are available, the technician should record the file sizes and calculate the actual size difference. A successful conversion does not automatically guarantee a smaller file or an improvement in visual quality.
-
-### Out of Scope
-
-* Professional video editing, color grading, or visual effects production.
-* Live video transcoding or real-time broadcast processing.
-* Automated batch transcoding pipelines or scheduled encoding jobs.
-* Command-line transcoding with FFmpeg or HandBrakeCLI.
-* Custom scripting or PowerShell-based media automation.
-* Enterprise media asset management platform deployment.
-* Streaming server, CDN, or video hosting infrastructure implementation.
-* Hardware encoder benchmarking or comparative performance testing.
-* Formal perceptual video quality benchmarking using PSNR, SSIM, or VMAF.
-* Audio mastering, advanced audio restoration, or detailed multitrack editing.
-* DRM implementation, digital rights enforcement, or watermarking systems.
-* Guaranteeing identical output quality across different source files.
-* Claims of successful conversion, file size reduction, or playback validation before the relevant checks have been performed.
+**Output verification:** Finding an output file does not by itself prove that the conversion completed successfully or that playback works. The encoding status, file properties, and playback should be checked separately where possible.
 
 ---
 
