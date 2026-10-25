@@ -12,7 +12,8 @@ These settings represent the intended laboratory configuration. The actual outpu
 
 The lab follows six evidence stages, from application installation to output verification. It emphasizes accurate configuration, process monitoring, file management, troubleshooting, and evidence-based technical documentation.
 
-**This is an educational portfolio exercise based on a simulated enterprise scenario. It does not represent a real corporate service request, a production deployment, an automated media processing pipeline, or formal video quality certification.**
+**This is an educational portfolio exercise based on a simulated enterprise scenario. It does not represent a real corporate service request, a production deployment, and automated media processing pipeline, or formal video quality certification**
+
 ---
 
 ## 🎯 Objectives & Scope
