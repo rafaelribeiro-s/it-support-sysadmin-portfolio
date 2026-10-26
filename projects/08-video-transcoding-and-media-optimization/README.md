@@ -61,6 +61,17 @@ The table describes the planned configuration, not a guarantee of the final outp
 
 **Output verification:** Finding an output file does not by itself prove that the conversion completed successfully or that playback works. The encoding status, file properties, and playback should be checked separately where possible.
 
+### Out of Scope
+
+* Automated or batch transcoding.
+* HandBrakeCLI or FFmpeg command-line workflows.
+* PowerShell or script-based media automation.
+* Streaming infrastructure or CDN deployment.
+* Professional video editing or color grading.
+* Formal perceptual quality benchmarking.
+* Enterprise media asset management implementation.
+* Claims of file size reduction or successful playback without supporting measurements or evidence.
+
 ---
 
 ## 🏢 Simulated Enterprise Scenario
@@ -78,21 +89,17 @@ The table describes the planned configuration, not a guarantee of the final outp
 * **Requested Output Format:** `MP4`
 * **Demonstrated Video Encoder:** `H.264 (x264)`
 
-The Community Outreach & Training Department is preparing educational video materials for a community health workshop. The department has received video clips in different formats, including MOV and MKV, and needs a consistent output format for use in presentation equipment and an online resource platform.
+### Business Context
 
-The IT Support department has been assigned to convert the relevant media files into MP4 using HandBrake.
+The Community Outreach & Training Department is preparing informational video material for a community health workshop. The selected video needs to be prepared for use in a presentation or compatible media playback environment.
 
-The technician must inspect the source file, select the appropriate output container, configure the video encoder and quality settings, review the output resolution, and define a suitable destination path.
+The simulated IT support request is to use HandBrake to configure and initiate conversion to MP4 using H.264 (x264).
 
-The initial encoding profile uses H.264 (x264), Constant Quality RF 22, and a resolution limit of up to 1080p HD. The final resolution and frame rate must remain appropriate for the source material and the intended playback environment.
+The technician reviews the source video, selects the output configuration, checks the resolution settings, and defines the destination. After initiating encoding, the technician inspects the output file and checks playback where possible.
 
-After configuration, the technician starts the encoding process and waits for it to complete. The output file is then inspected to confirm that it was generated at the intended destination and can be opened in a compatible media player.
+The original source must be retained until the output has been validated. Any configuration differences, errors, or limitations must be documented.
 
-Where feasible, the technician records the source and output file sizes, output dimensions, duration, and other relevant properties to determine whether the conversion meets the original requirements.
-
-The procedure and its results are documented to support repeatability, troubleshooting, and future media compatibility requests.
-
-For this lab, the scenario is simulated for educational and portfolio purposes. The project demonstrates a structured video conversion workflow; it does not represent an actual enterprise service ticket or a production deployment performed for a real organization.
+This scenario is fictional and is intended to demonstrate a repeatable technical workflow. It does not represent a real production ticket or work performed for an actual company.
 
 ---
 
@@ -125,117 +132,60 @@ For this lab, the scenario is simulated for educational and portfolio purposes. 
 
 ## 🔐 Technical Controls Demonstrated
 
-The lab focuses on operational controls that improve the reliability, compatibility, and traceability of a basic media conversion workflow.
+### 1. Source Selection and Preservation
 
-### Source File Identification and Preservation
+The intended source video must be loaded before configuring the output. The source should be retained until the converted file has been checked to avoid losing the original if the conversion fails or the output is unsuitable.
 
-The technician must identify the intended source video before configuring the conversion.
+Source properties should be recorded when they are available and relevant.
 
-The source file's location, filename, format, and relevant properties should be recorded where practical.
+### 2. Container and Encoder Configuration
 
-The original file should be preserved until the converted output has been validated. This prevents an unsuccessful conversion or an unsuitable encoding configuration from becoming the only available copy.
+MP4 is the output container, while H.264 (x264) is the video encoder. These are separate settings and should be documented independently.
 
-When processing important media assets, the technician should verify that a separate copy or backup is available before making changes to the source material.
+The selected configuration should be appropriate for the intended playback environment. Compatibility should be tested where possible rather than assumed solely from the file extension.
 
-### Output Container and Codec Compatibility
+### 3. Quality and Compression
 
-The technician must distinguish between a container format and a video codec.
+Constant Quality RF 22 is the planned starting point for the encoding configuration.
 
-MP4 is the selected output container, while H.264 (x264) is the demonstrated video encoder.
+The final bitrate and file size depend on the source video and the encoding parameters. A smaller output is not automatically a better result if visual quality is unacceptable.
 
-These settings serve different purposes: the container organizes the media streams and associated metadata, while the codec determines how the video is encoded.
+If file size reduction is an objective, the source and output sizes must be measured and compared.
 
-The selected configuration should be checked against the requirements of the target presentation equipment, media player, or online platform.
+### 4. Resolution and Scaling
 
-MP4 and H.264 provide broad compatibility, but compatibility should still be verified in the intended playback environment when possible.
+Resolution settings must be reviewed before encoding. The final dimensions depend on the source and the scaling options selected in HandBrake.
 
-### Encoding Quality and File Size Management
+Frame rate should also be reviewed when relevant. The final frame rate must be recorded from the actual output rather than assumed from a planned example.
 
-The Constant Quality RF 22 setting provides a starting point for balancing visual quality and compression.
+### 5. Destination and File Management
 
-The technician must understand that RF-based encoding does not guarantee a fixed bitrate or output size.
+The output filename and destination should be selected before encoding begins. The technician should verify the destination and avoid unintentionally overwriting existing files.
 
-The output file may be smaller or larger than the source depending on the source encoding, container overhead, video complexity, resolution, frame rate, and selected settings.
+### 6. Encoding Execution
 
-If file size is a critical requirement, the technician should record the actual source and output sizes and adjust the encoding configuration only after evaluating the results.
+The encoding process should be monitored for status changes or errors. Starting encoding is not the same as confirming that encoding has completed.
 
-A smaller file is not automatically a better result if the conversion introduces unacceptable visual artifacts or removes necessary detail.
+If a problem occurs, the technician should review the application status and Activity Log where appropriate, check source and destination accessibility, and document any corrective action.
 
-### Resolution and Frame Rate Control
+### 7. Output Validation
 
-The Dimensions tab allows the technician to review scaling and resolution settings before encoding.
+Post-conversion checks should include, where available:
 
-The demonstrated workflow uses a resolution limit of up to 1080p HD, with an example output of 1280 × 720.
+* Confirming that the output file exists at the selected destination.
+* Checking the filename and .mp4 extension.
+* Inspecting file size and available media properties.
+* Opening the video in a compatible media player.
+* Checking that the visible content and duration are consistent with the intended source.
+* Recording unexpected output properties or compatibility issues.
 
-The technician must confirm that the selected output dimensions are suitable for the source material and target display.
+Each check should be reported according to the evidence available. Successful encoding does not automatically establish visual quality or compatibility with every target device.
 
-The frame rate should also be reviewed. A setting of 30 FPS is shown in the training example, but preserving the source frame rate may be preferable when the source uses a different rate.
+### 8. Evidence-Based Documentation
 
-Resolution and frame rate changes should be intentional because they can affect visual quality, file size, playback behavior, and processing time.
+The project uses six evidence items to document the main workflow stages. Screenshots should reflect the actual laboratory environment and distinguish between planned configuration, observed status, and verified results.
 
-### Output Destination and File Naming
-
-The output filename and destination path must be configured before encoding starts.
-
-A descriptive filename and an organized destination directory reduce the risk of overwriting unrelated files and make the resulting media easier to locate.
-
-The technician should verify that the selected destination has sufficient free storage space and that the output filename uses the intended extension.
-
-Existing files should not be overwritten without confirming that replacement is intended.
-
-### Encoding Execution and Process Monitoring
-
-The Start Encode action initiates the conversion process.
-
-The technician should monitor the encoding status and allow the operation to complete before treating the output as ready for use.
-
-Processing time depends on the source duration, encoding settings, selected encoder, and available hardware resources.
-
-If encoding fails or stops unexpectedly, the technician should review the application status and Activity Log where appropriate, check the source file and destination path, and retry only after addressing the identified issue.
-
-### Post-Conversion Validation
-
-The output file must be inspected after encoding.
-
-The minimum validation checks are:
-
-* Confirm that the output file exists at the selected destination.
-* Verify that the file has the expected .mp4 extension.
-* Inspect the available file properties and confirm the reported size.
-* Open the output in a compatible media player.
-* Confirm that the video plays and that its duration and visible content are consistent with the intended source.
-* Inspect the output dimensions and frame rate where the required properties are available.
-* Record any unexpected differences or conversion errors.
-
-A successful encoding status is useful evidence, but it does not independently establish that the output is visually acceptable or compatible with every target platform.
-
-### Data Integrity and Media Handling
-
-The original source should be retained until the output has passed the required checks.
-
-The technician should avoid unnecessary re-encoding because repeated lossy encoding can introduce additional quality degradation.
-
-Source media may also contain sensitive information, personal data, or copyrighted content. Files must be stored and shared according to applicable organizational access controls, privacy requirements, and licensing restrictions.
-
-The lab does not implement enterprise encryption, digital rights management, or formal media retention controls.
-
-### Evidence-Based Documentation
-
-Screenshots and technical observations should document the actual workflow rather than imply results that have not been verified.
-
-The evidence should include, where available:
-
-* The HandBrake source selection interface.
-* The selected source video and its relevant properties.
-* The Summary tab showing the MP4 output container.
-* The Video tab showing H.264 (x264) and Constant Quality RF 22.
-* The Dimensions tab showing the resolution and scaling configuration.
-* The destination filename and output path.
-* The encoding process or completion status.
-* The resulting file in its destination directory.
-* The output properties and playback verification.
-
-The final documentation must distinguish the planned settings from the settings actually used and record any deviations, limitations, or troubleshooting observations.
+If a property or outcome is not demonstrated, it should be identified as unverified rather than reported as a confirmed result.
 
 ---
 
