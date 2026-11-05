@@ -39,20 +39,28 @@ Each project is designed as a simulated enterprise scenario with documented obje
 it-support-sysadmin-portfolio/projects/
 ├── 01-identity-and-access-management-iam/
 │   └── README.md
+|         └── Wiki Documentation: 01 — Identity and Access Management (IAM) — Local User Provisioning & Least Privilege
 ├── 02-endpoint-security-and-screen-lock-policies/
 │   └── README.md
+|         └── Wiki Documentation: 02 — Endpoint Security — Automatic Screen Lock & Inactivity Policy
 ├── 03-software-deployment-and-integrity-verification/
 │   └── README.md
+|         └── Wiki Documentation: 03 — Software Deployment & Integrity Verification — Safe and Guided Software Installation
 ├── 04-windows-firewall-and-endpoint-network-security/
 │   └── README.md
+|         └── Wiki Documentation: 04 — Windows Firewall & Endpoint Network Security — Firewall Configuration and Connectivity Validation
 ├── 05-hardware-provisioning-video-editing-workstation/
 │   └── README.md
+|         └── Wiki Documentation: 05 — Hardware Provisioning — Video Editing Workstation
 ├── 06-hardware-upgrade-and-troubleshooting-case/
 │   └── README.md
+|         └── Wiki Documentation: 06 — Hardware Upgrade and Troubleshooting — Hardware Diagnostics
 ├── 07-disk-management-and-stroage-partitioning/
 │   └── README.md
-└── 08-video-transcoding-and-media-optimization/
-    └── README.md
+|         └── Wiki Documentation: 07 — Disk Management and Storage Partitioning
+├── 08-video-transcoding-and-media-optimization/
+|   └── README.md
+|         └── Wiki Documentation: 08 — Media Processing & File Optimization — Video Transcoding with HandBrake
 ```
 
 ---
